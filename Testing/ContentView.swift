@@ -29,7 +29,7 @@ struct ContentView_Previews: PreviewProvider {
 struct FootprintTab: View {
     let info: InfoSheet
     var body: some View {
-        NavigationLink(destination: Text(info.name)) {
+        NavigationLink(destination: MovementView()) {
             Image(systemName: "photo").cornerRadius(3.0)
             VStack(alignment: .leading) {
                 Text(info.name)

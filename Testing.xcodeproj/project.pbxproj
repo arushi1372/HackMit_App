@@ -7,10 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1BD6D881251707A200A4EB31 /* Speed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BD6D880251707A200A4EB31 /* Speed.swift */; };
+		1BD6D889251708C700A4EB31 /* SpeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BD6D888251708C700A4EB31 /* SpeedView.swift */; };
+		1BD6D88E2517092500A4EB31 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BD6D88D2517092500A4EB31 /* Assets.xcassets */; };
 		2137FC2B2516BB3000D09BF4 /* Info Sheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2137FC2A2516BB3000D09BF4 /* Info Sheet.swift */; };
-		2137FC302516BE9100D09BF4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2137FC2F2516BE9100D09BF4 /* Assets.xcassets */; };
 		2137FC382516F6D900D09BF4 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2137FC372516F6D900D09BF4 /* Data.swift */; };
-		2137FC3D2517019700D09BF4 /* Location Info.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2137FC3C2517019700D09BF4 /* Location Info.swift */; };
 		21D228932516B47E006492D3 /* TestingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21D228922516B47E006492D3 /* TestingApp.swift */; };
 		21D228952516B47E006492D3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21D228942516B47E006492D3 /* ContentView.swift */; };
 		21D2289A2516B480006492D3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21D228992516B480006492D3 /* Preview Assets.xcassets */; };
@@ -36,10 +37,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1BD6D880251707A200A4EB31 /* Speed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Speed.swift; sourceTree = "<group>"; };
+		1BD6D888251708C700A4EB31 /* SpeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeedView.swift; sourceTree = "<group>"; };
+		1BD6D88D2517092500A4EB31 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2137FC2A2516BB3000D09BF4 /* Info Sheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Info Sheet.swift"; sourceTree = SOURCE_ROOT; };
-		2137FC2F2516BE9100D09BF4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../../Downloads/AppIcons/Assets.xcassets; sourceTree = "<group>"; };
 		2137FC372516F6D900D09BF4 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
-		2137FC3C2517019700D09BF4 /* Location Info.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Location Info.swift"; sourceTree = "<group>"; };
 		21D2288F2516B47E006492D3 /* Testing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Testing.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		21D228922516B47E006492D3 /* TestingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestingApp.swift; sourceTree = "<group>"; };
 		21D228942516B47E006492D3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -105,10 +107,11 @@
 				2137FC372516F6D900D09BF4 /* Data.swift */,
 				2137FC2A2516BB3000D09BF4 /* Info Sheet.swift */,
 				21D228942516B47E006492D3 /* ContentView.swift */,
-				2137FC3C2517019700D09BF4 /* Location Info.swift */,
-				2137FC2F2516BE9100D09BF4 /* Assets.xcassets */,
+				1BD6D88D2517092500A4EB31 /* Assets.xcassets */,
 				21D2289B2516B480006492D3 /* Info.plist */,
 				21D228982516B480006492D3 /* Preview Content */,
+				1BD6D880251707A200A4EB31 /* Speed.swift */,
+				1BD6D888251708C700A4EB31 /* SpeedView.swift */,
 			);
 			path = Testing;
 			sourceTree = "<group>";
@@ -243,7 +246,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				21D2289A2516B480006492D3 /* Preview Assets.xcassets in Resources */,
-				2137FC302516BE9100D09BF4 /* Assets.xcassets in Resources */,
+				1BD6D88E2517092500A4EB31 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,8 +273,9 @@
 			files = (
 				21D228952516B47E006492D3 /* ContentView.swift in Sources */,
 				21D228932516B47E006492D3 /* TestingApp.swift in Sources */,
+				1BD6D889251708C700A4EB31 /* SpeedView.swift in Sources */,
 				2137FC2B2516BB3000D09BF4 /* Info Sheet.swift in Sources */,
-				2137FC3D2517019700D09BF4 /* Location Info.swift in Sources */,
+				1BD6D881251707A200A4EB31 /* Speed.swift in Sources */,
 				2137FC382516F6D900D09BF4 /* Data.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
