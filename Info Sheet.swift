@@ -12,6 +12,8 @@ struct InfoSheet : Identifiable {
     var id = UUID()
     var name: String
     var footprint: Double
+//    var wifi: Double
+//    var wwan: Double
     
     var imageName: String { return name }
 }

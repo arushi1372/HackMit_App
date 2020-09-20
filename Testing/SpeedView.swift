@@ -46,10 +46,15 @@ struct MovementView: View {
                         .stroke(Color.green.opacity(0.5), lineWidth: 2)
                         .padding(.bottom, 100.0)
                     )
-                HStack {
+                VStack {
                     Text("Total: \(Int(totalday))g CO2").fontWeight(.bold).font(.title)
                         .multilineTextAlignment(.center)
-                        .padding(.bottom, 200.0)
+                        .padding(.bottom, 20.0)
+                    Text("From Data: \(SystemDataUsage.wifiCompelete/1000000000) kg CO2").fontWeight(.bold).font(.title)
+                        .multilineTextAlignment(.center)
+                        
+                    Text("From Wifi: \(SystemDataUsage.wwanCompelete/1000000000) kg CO2").fontWeight(.bold).font(.title)
+                        .multilineTextAlignment(.center)
                 }
             }
         }

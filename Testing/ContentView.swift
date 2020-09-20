@@ -13,7 +13,7 @@ struct ContentView: View {
     var body: some View {
         NavigationView {
             List(infos) { info in
-                FootprintTab(info: info)
+                MovementTab(info: info)
             }
             .navigationBarTitle(Text("Phone Footprint Use"))
         }
@@ -26,7 +26,7 @@ struct ContentView_Previews: PreviewProvider {
     }
 }
 
-struct FootprintTab: View {
+struct MovementTab: View {
     let info: InfoSheet
     var body: some View {
         NavigationLink(destination: MovementView()) {
