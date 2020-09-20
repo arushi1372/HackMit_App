@@ -8,14 +8,35 @@
 import SwiftUI
 
 struct ContentView: View {
+    var infos: [InfoSheet] = []
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        NavigationView {
+            List(infos) { info in
+                FootprintTab(info: info)
+            }
+            .navigationBarTitle(Text("Phone Footprint Use"))
+        }
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        ContentView(infos: testData)
+    }
+}
+
+struct FootprintTab: View {
+    let info: InfoSheet
+    var body: some View {
+        NavigationLink(destination: Text(info.name)) {
+            Image(systemName: "photo").cornerRadius(3.0)
+            VStack(alignment: .leading) {
+                Text(info.name)
+                Text("\(info.footprint.removeZerosFromEnd()) CO2 used")
+                    .font(.subheadline)
+                    .foregroundColor(.secondary)
+            }
+        }
     }
 }
